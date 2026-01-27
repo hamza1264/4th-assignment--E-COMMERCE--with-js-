@@ -1,25 +1,147 @@
-
 /* navbar start */
+/* mobile responsive (min : 0) and (max : 480) */
 
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+    }
 
+    .logo {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
 
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        font-size: 15px;
+    }
+}
+
+/* mobile responsive end  */
+/* tablet responsive (min : 481) and (max : 768) */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar {
+        padding: 15px 30px;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+
+    .nav-links li {
+        margin-left: 18px;
+    }
+
+    .nav-links a {
+        font-size: 15px;
+    }
+}
+
+/* tablet responsive end  */
+/* small laptop responsive (min : 769) and (max : 1279) */
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .navbar {
+        padding: 15px 40px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .nav-links li {
+        margin-left: 25px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+}
+
+/* small laptop responsive end  */
 /* navbar end  */
 
 /* section 01 start  */
 
+/* mobile responsive (min : 0) and (max : 480) */
 
+@media (max-width: 480px) {
+    #main {
+        height: auto;
+        min-height: 500px;
+        margin: 10px 0px;
+    }
+}
+
+/* mobile responsive end  */
+/* tablet responsive (min : 481) and (max : 768) */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #main {
+        height: 650px;
+        margin: 15px 0px;
+    }
+}
+
+/* tablet responsive end  */
+/* small laptop responsive (min : 769) and (max : 1279) */
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    #main {
+        height: 750px;
+        margin: 20px 0px;
+    }
+}
+
+/* small laptop responsive end  */
 
 /* section 01 end  */
 
 /* section 02 start  */
 
+/* mobile responsive (min : 0) and (max : 480) */
 
+
+/* mobile responsive end  */
+/* tablet responsive (min : 481) and (max : 768) */
+
+
+
+
+
+/* tablet responsive end  */
+/* small laptop responsive (min : 769) and (max : 1279) */
+
+
+
+
+/* small laptop responsive end  */
 
 /* section 02 end  */
 
 /* section 03 start  */
 
+/* mobile responsive (min : 0) and (max : 480) */
 
+
+/* mobile responsive end  */
+/* tablet responsive (min : 481) and (max : 768) */
+
+
+
+/* tablet responsive end  */
+/* small laptop responsive (min : 769) and (max : 1279) */
 
 /* section 03 end  */
 
@@ -44,10 +166,4 @@
 /* section 07 start  */
 
 /* section 07 end  */
-
-
-
-
-
-
 
