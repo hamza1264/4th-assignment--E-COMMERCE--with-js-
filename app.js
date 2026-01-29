@@ -1,3 +1,25 @@
+
+// section : 01 start 
+
+var image = [
+    "image/main 01.png",
+    "image/main 02.jpg",
+    "image/main 03.jpg"
+]
+
+var index = 0
+
+function firstImage() {
+    index = index + 1
+
+    if (index >= image.length) {
+        index = 0
+    }
+    document.getElementById("main").src = image[index]
+}
+
+// section : 01 end  
+
 // section : 02 start 
 
 let fiveCard = document.getElementsByClassName("five-div")
@@ -111,13 +133,13 @@ for (var i = 0; i < threeCard2.length; i++) {
 
 // footer : 07 start 
 
-let images = [
+var images = [
     "image/footer img 01.png",
     "image/footer img 02.jpg",
     "image/footer img 03.jpg"
 ]
 
-let index = 0
+var index = 0
 
 function changeImageFooter() {
     index = index + 1
